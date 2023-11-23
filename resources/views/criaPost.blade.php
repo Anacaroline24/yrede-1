@@ -1,5 +1,5 @@
-<div>
-    <!-- Simplicity is the consequence of refined emotions. - Jean D'Alembert -->
+
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -9,7 +9,8 @@
         <title>Document</title>
     </head>
     <body>
-        <div>Nova Postagem</div>
+    <h2 class="text-4xl font-extrabold dark:text-white">Nova Postagem</h2>
+      
 
         <form action="/salva-post" method="POST">
 
@@ -24,4 +25,3 @@
 
     </body>
     </html>
-</div>
