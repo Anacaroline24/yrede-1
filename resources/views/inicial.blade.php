@@ -8,14 +8,14 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"  rel="stylesheet" />
     <title>Document</title>
 </head>
-<body>
+<body class="bg-purple-200 h-screen">
     
 
 <nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
  
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Seu posts</span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Post web</span>
     </a>
     <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
@@ -41,7 +41,7 @@
 </nav>
 
 
-<div class=" bg-purple-400 p-5 font-bold px-7 ">Posts:</div>
+<div class=" bg-purple-400 text-center font-extrabold text-xl  ">Posts:</div>
 
 
 @foreach($posts as $post)
@@ -56,5 +56,13 @@
 <div>
     
 </div>
+<footer class="bg-white rounded-lg shadow m-4 dark:bg-black">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-black sm:text-center dark:text-black">© 2023 <a class="hover:underline">Postweb™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-black dark:text-black sm:mt-0"></ul>
+    </div>
+</footer>
+
 </body>
 </html>
